@@ -1,0 +1,65 @@
+/* reset.css */
+
+/* Elimina el espacio y padding de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegura que las listas no tengan estilos predeterminados */
+ul, ol {
+    list-style: none;
+}
+
+/* Elimina las decoraciones predeterminadas de los enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Asegura que las imágenes no excedan el ancho de su contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Establece una base uniforme para los elementos de formulario */
+input, button, textarea, select {
+    font: inherit;
+    color: inherit;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+}
+
+/* Establece un fondo blanco por defecto para todo */
+body {
+    line-height: 1.5;
+    background-color: #fff;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Manejo de tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Oculta el marcador predeterminado de checkbox y radio */
+input[type="checkbox"], input[type="radio"] {
+    appearance: none;
+}
+
+/* Reset para elementos semánticos específicos */
+article, aside, footer, header, nav, section, figure, figcaption {
+    display: block;
+}
+
+/* Oculta el contorno predeterminado en botones pero lo deja accesible con tab */
+button:focus {
+    outline: 2px solid #000;
+}
